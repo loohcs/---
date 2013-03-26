@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2C0D8917013926008C654D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2C0D8817013926008C654D /* UIKit.framework */; };
+		5C2C0D8B17013926008C654D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2C0D8A17013926008C654D /* Foundation.framework */; };
+		5C2C0D8D17013926008C654D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2C0D8C17013926008C654D /* CoreGraphics.framework */; };
+		5C2C0D9317013926008C654D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C0D9117013926008C654D /* InfoPlist.strings */; };
+		5C2C0D9517013926008C654D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C0D9417013926008C654D /* main.m */; };
+		5C2C0D9917013926008C654D /* AKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C0D9817013926008C654D /* AKAppDelegate.m */; };
+		5C2C0D9B17013926008C654D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C0D9A17013926008C654D /* Default.png */; };
+		5C2C0D9D17013926008C654D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C0D9C17013926008C654D /* Default@2x.png */; };
+		5C2C0D9F17013926008C654D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C2C0D9E17013926008C654D /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C2C0D8517013926008C654D /* 医药通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "医药通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2C0D8817013926008C654D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C2C0D8A17013926008C654D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C2C0D8C17013926008C654D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C2C0D9017013926008C654D /* 医药通-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "医药通-Info.plist"; sourceTree = "<group>"; };
+		5C2C0D9217013926008C654D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C2C0D9417013926008C654D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C2C0D9617013926008C654D /* 医药通-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "医药通-Prefix.pch"; sourceTree = "<group>"; };
+		5C2C0D9717013926008C654D /* AKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKAppDelegate.h; sourceTree = "<group>"; };
+		5C2C0D9817013926008C654D /* AKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKAppDelegate.m; sourceTree = "<group>"; };
+		5C2C0D9A17013926008C654D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C2C0D9C17013926008C654D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C2C0D9E17013926008C654D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2C0D8217013926008C654D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2C0D8917013926008C654D /* UIKit.framework in Frameworks */,
+				5C2C0D8B17013926008C654D /* Foundation.framework in Frameworks */,
+				5C2C0D8D17013926008C654D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2C0D7C17013926008C654D = {
+			isa = PBXGroup;
+			children = (
+				5C2C0D8E17013926008C654D /* 医药通 */,
+				5C2C0D8717013926008C654D /* Frameworks */,
+				5C2C0D8617013926008C654D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C2C0D8617013926008C654D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C2C0D8517013926008C654D /* 医药通.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C2C0D8717013926008C654D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C2C0D8817013926008C654D /* UIKit.framework */,
+				5C2C0D8A17013926008C654D /* Foundation.framework */,
+				5C2C0D8C17013926008C654D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C2C0D8E17013926008C654D /* 医药通 */ = {
+			isa = PBXGroup;
+			children = (
+				5C2C0D9717013926008C654D /* AKAppDelegate.h */,
+				5C2C0D9817013926008C654D /* AKAppDelegate.m */,
+				5C2C0D8F17013926008C654D /* Supporting Files */,
+			);
+			path = "医药通";
+			sourceTree = "<group>";
+		};
+		5C2C0D8F17013926008C654D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C2C0D9017013926008C654D /* 医药通-Info.plist */,
+				5C2C0D9117013926008C654D /* InfoPlist.strings */,
+				5C2C0D9417013926008C654D /* main.m */,
+				5C2C0D9617013926008C654D /* 医药通-Prefix.pch */,
+				5C2C0D9A17013926008C654D /* Default.png */,
+				5C2C0D9C17013926008C654D /* Default@2x.png */,
+				5C2C0D9E17013926008C654D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C2C0D8417013926008C654D /* 医药通 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2C0DA217013926008C654D /* Build configuration list for PBXNativeTarget "医药通" */;
+			buildPhases = (
+				5C2C0D8117013926008C654D /* Sources */,
+				5C2C0D8217013926008C654D /* Frameworks */,
+				5C2C0D8317013926008C654D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "医药通";
+			productName = "医药通";
+			productReference = 5C2C0D8517013926008C654D /* 医药通.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2C0D7D17013926008C654D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AK;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "山东乐世安通通信技术有限公司";
+			};
+			buildConfigurationList = 5C2C0D8017013926008C654D /* Build configuration list for PBXProject "医药通" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C2C0D7C17013926008C654D;
+			productRefGroup = 5C2C0D8617013926008C654D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2C0D8417013926008C654D /* 医药通 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2C0D8317013926008C654D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2C0D9317013926008C654D /* InfoPlist.strings in Resources */,
+				5C2C0D9B17013926008C654D /* Default.png in Resources */,
+				5C2C0D9D17013926008C654D /* Default@2x.png in Resources */,
+				5C2C0D9F17013926008C654D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2C0D8117013926008C654D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2C0D9517013926008C654D /* main.m in Sources */,
+				5C2C0D9917013926008C654D /* AKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C2C0D9117013926008C654D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C2C0D9217013926008C654D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C2C0DA017013926008C654D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C2C0DA117013926008C654D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2C0DA317013926008C654D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "医药通/医药通-Prefix.pch";
+				INFOPLIST_FILE = "医药通/医药通-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C2C0DA417013926008C654D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "医药通/医药通-Prefix.pch";
+				INFOPLIST_FILE = "医药通/医药通-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2C0D8017013926008C654D /* Build configuration list for PBXProject "医药通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2C0DA017013926008C654D /* Debug */,
+				5C2C0DA117013926008C654D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2C0DA217013926008C654D /* Build configuration list for PBXNativeTarget "医药通" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2C0DA317013926008C654D /* Debug */,
+				5C2C0DA417013926008C654D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C2C0D7D17013926008C654D /* Project object */;
+}
