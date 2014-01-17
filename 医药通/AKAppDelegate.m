@@ -7,7 +7,7 @@
 //
 
 #import "AKAppDelegate.h"
-
+#import "AKLogInViewController.h"
 @implementation AKAppDelegate
 
 - (void)dealloc
@@ -21,6 +21,14 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    AKLogInViewController *logInVC = [[AKLogInViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:logInVC];
+    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_bar.png"] forBarMetrics:UIBarMetricsDefault];
+    self.window.rootViewController = nav;
+    [logInVC release];
+    [nav release];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
